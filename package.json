@@ -1,7 +1,10 @@
 {
   "name": "realestateapp",
+  "homepage": "https://aashishuppalui.github.io/realestateapp",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,6 +26,7 @@
   },
   "devDependencies": {
     "eslint": "8.9.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": "12.0.10",
+    "gh-pages": "^3.2.3"
   }
 }
