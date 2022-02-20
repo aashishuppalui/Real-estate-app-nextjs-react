@@ -1,6 +1,6 @@
 {
-  "name": "realestateapp",
-  "homepage": "https://aashishuppalui.github.io/realestateapp",
+  "name": "realestateappnextjsreact",
+  "homepage": "https://aashishuppalui.github.io/Real-estate-app-nextjs-react/",
   "private": true,
   "scripts": {
     "predeploy":"npm run build",
